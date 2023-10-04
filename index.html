@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <body>
-        <main>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Regium</title>
+    </head>
+    <body style="text-align:center">
+        <header>
             <h1>Regium</h1>
-            <p class="homepage">
-                A budgeting site for the masses
-            </p>
             <nav>
                 <a href="/index.html">Home</a>
                 <a href="/budget.html">Budget</a>
                 <a href="/transactions.html">Transactions</a>
             </nav>
-            <p class="assignment">Learn where this went</p>
+        </header>
+        <main>
+            <p class="homepage">
+                A budgeting site for the masses
+                <div>Login to view budget</div>
+            </p>
+            <form method="get" action="budget.html">
+                <div class="container">
+                    <label for="uname"><b>Username:</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname">
+                    
+                    <label for="pwd"><b>Password:</b></label>
+                    <input type="password" id="psw" placeholder="Enter password"/>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
         </main>
+        <footer style="text-align:left">
+            <hr />
+            <span class="text-reset">Author Name(s)</span>
+            <br/>
+            <a href="https://github.com/jhiatt19/startup">Github</a>
+        </footer>
     </body>
 </html>
