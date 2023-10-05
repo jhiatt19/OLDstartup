@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>Regium</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Regium</title>
+    </head>
     <body>
-        <main>
+        <header>
             <h1>Budget</h1>
             <nav>
-                <a href="/index.html">Home</a>
+                <a href="/index.html">Login</a>
                 <a href="/budget.html">Budget</a>
                 <a href="/transactions.html">Transactions</a>
             </nav>
+        </header>
+        <main>
+            <!--This is a place holder hard coded budget-->
             <p class="introBudget">
                 Create your own personal budget
                 <span class="budget">here</span>
             </p>
+            <button popovertarget="placeholder">Add item to budget</button>
+            <h3>Example Budget</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Total (Month)</th>
+                        <th>Total Spent</th>
+                        <th>Total Left</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rent</td>
+                        <td>$365</td>
+                        <td>$365</td>
+                        <td>$0</td>
+                    </tr>
+                    <tr>
+                        <td>Groceries</td>
+                        <td>$200</td>
+                        <td>$52.37</td>
+                        <td>$147.63</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td>Total</td>
+                    <td>$565</td>
+                    <td>$417.37</td>
+                    <td>$147.63</td>
+                </tfoot>
+            </table>
         </main>
     </body>
 </html>
