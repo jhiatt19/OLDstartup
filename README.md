@@ -45,7 +45,18 @@ Do you struggle to budget efficiently? Every month you write out your budget and
 
 **React**: Application is ported to use the React web framework
 
-http://regium.org/
+## HTML deliverable
+(___)
+
+For this deliverable I built out the structure of my application using HTML.
+
+- HTML pages: Four HTML page that represent the ability to login, create a budget, manage transactions, and created an about page.
+- Links: The login page automatically connects to the Budget page. From their the Budget page has links to the Transactions, Login, and About pages. These pages, other than the Login page, all link to each other.
+- Text: The Budget page has a table with text in it, the Transaction page has data with transaction data, and the About page has text describing the point of the page.
+- Images: Added an image to the About page.
+- Login: Input box with a username input and an input box with a password box with a submit button for logging in.
+- Database: The Budget holds data being pulled from the transactions tab.
+- Websocket- The transaction page brings in transactions in real-time.
 
 
 
