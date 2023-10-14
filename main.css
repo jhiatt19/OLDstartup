@@ -23,7 +23,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #898e8d;
-    padding-top: 15%;
+    height: 50%;
 }
 
 form {
