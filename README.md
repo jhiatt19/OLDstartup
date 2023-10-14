@@ -46,7 +46,6 @@ Do you struggle to budget efficiently? Every month you write out your budget and
 **React**: Application is ported to use the React web framework
 
 ## HTML deliverable
-(___)
 
 For this deliverable I built out the structure of my application using HTML.
 
