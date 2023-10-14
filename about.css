@@ -1,8 +1,10 @@
 p {
-    font-size: 40px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-right: 1%
 }
 
 img {
-    width:100%;
+    width:50%;
 }
