@@ -5,6 +5,8 @@
         <title>Regium</title>
 
         <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="navigation.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico"/>
 
         <!-- Include bootstrap CSS framework -->
         <link
@@ -18,7 +20,7 @@
         <header>
             <h1>Budget</h1>
             <nav>
-                <a href="/index.html">Login</a>
+                <a class = "buttonDark" type="submit" href="/index.html">Login</a>
                 <a href="/budget.html">Budget</a>
                 <a href="/transactions.html">Transactions</a>
                 <a href="/about.html">About</a>
@@ -30,37 +32,38 @@
                 Create your own personal budget
                 <span class="budget">here</span>
             </p>
-            <button popovertarget="placeholder">Add item to budget</button>
+            <button class="btn btn-dark" popovertarget="placeholder">Add item to budget</button>
+            <br></br>
             <h3>Example Budget</h3>
-            <table>
-                <thead>
+            <table class="table table-bordered table-hover">
+                <thead class="table-dark">
                     <tr>
-                        <th>Month</th>
-                        <th>Total (Month)</th>
-                        <th>Total Spent</th>
-                        <th>Total Left</th>
+                        <th scope="col">Month</th>
+                        <th scope="col">Total (Month)</th>
+                        <th scope="col">Total Spent</th>
+                        <th scope="col">Total Left</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Rent</td>
+                        <th scope="row">Rent</th>
                         <td>$365</td>
                         <td>$365</td>
                         <td>$0</td>
                     </tr>
                     <tr>
-                        <td>Groceries</td>
+                        <th scope="row">Groceries</th>
                         <td>$200</td>
                         <td>$52.37</td>
                         <td>$147.63</td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <td>Total</td>
+                <tbody>
+                    <th scope="row">Total</th>
                     <td>$565</td>
                     <td>$417.37</td>
                     <td>$147.63</td>
-                </tfoot>
+                </tbody>
             </table>
         </main>
         <footer>
