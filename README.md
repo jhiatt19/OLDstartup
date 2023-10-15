@@ -58,6 +58,17 @@ For this deliverable I built out the structure of my application using HTML.
 - Websocket- The transaction page brings in transactions in real-time.
 
 
+## CSS deliverable
+
+For this deliverable I styled the application using CSS.
+
+- Header, footer, and main content body
+- Navigation elements: The navigation anchors only are underlined when you hover over the link, the color is changed, and the link bolds when hovering over them as well.
+- Responsive to window resizing: The app responds when the window is resized.
+- Application elements: Good contrast and use of whitespace.
+- Application text content: Fonts are consistent and the fonts don't distract from each other.
+- Application images: Image isn't over-stretched and is centered when resized.
+
 
 
 
