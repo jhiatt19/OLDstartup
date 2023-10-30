@@ -1,5 +1,5 @@
 function login() {
-    const name1 = document.querySelector("#name");
-    localStorage.setItem("uname", name1.value);
+    const uname = document.getElementbyID("uname");
+    localStorage.setItem("uname", uname);
     window.location.href = "budget.html";
 }
