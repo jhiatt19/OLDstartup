@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Regium</title>
 
+        <script scr= "login.js"></script>
         <link rel="stylesheet" href="main.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico"/>
 
@@ -32,12 +33,12 @@
             <form method="get" action="budget.html">
                 <div class="container">
                     <label for="uname"><b>Username:</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname">
+                    <input type="text" id="uname" placeholder="Enter Username">
                     <br></br>
                     <label for="pwd"><b>Password:</b></label>
                     <input type="password" id="psw" placeholder="Enter password"/>
                     <br></br>
-                    <button type="submit" class ="btn btn-dark">Login</button>
+                    <button type="submit" class ="btn btn-dark" onclick="login()">Login</button>
                 </div>
             </form>
         </main>
