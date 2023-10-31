@@ -28,13 +28,13 @@ display image with hyperlink in HTML: <a <img> href="link"></a>
 CSS box model layers inside working out: inside: content, padding, border, outside: margin
 troubl to green but leave double text unaffected?:
 output from a for loop and console.log: whatever console.log is attached will be output
-change element with id of byu to green using JS: document.getElementById('byu').style.color = 'green'
-opening HTML tag for a <p>, <ol>, <ul>, <h2>, <h1>, and <h3>: I thnk it is '<' or what was written over their
+change element with id of byu to green using JS: "document.getElementById('byu').style.color = 'green'"
+opening HTML tag for a "<p>, <ol>, <ul>, <h2>, <h1>, and <h3>": I thnk it is '<' or what was written over their
 declare doc type to HTML: <!DOCTYPE html>
-JS syntax for if, else, for, while, and switch: if (){} else if () {} else{} for (){} while (){} switch () { case x: break; case y: break; default: }
-syntax for creating a JS object: new example() or object.create()
-add new properties to JS objects: obj[propName] = 'Property value'
-tag for including JS on an HTML page: <script></script> or <script src='JS.js'></script> 
+JS syntax for if, else, for, while, and switch: "if (){} else if () {} else{} for (){} while (){} switch () { case x: break; case y: break; default: }"
+syntax for creating a JS object: "new example() or object.create()"
+add new properties to JS objects: "obj[propName] = 'Property value'"
+tag for including JS on an HTML page: "<script></script> or <script src='JS.js'></script>" 
 JS to change text of animal to crow but leave fish unaffected: look at tags or id elements
 JSON: standard text-based format for representing structured based on JavaScript object syntax
 console commands-
@@ -60,13 +60,13 @@ HTTPS need a web certificate: Yes
 DNS A record point to an IP address or another A record: DNS A record points to an IP address
 Port 443, 80. 22 reserved for which protocol: 443->HTTPS services 80->HTTP 22->SSH protocol
 Promises: pending, fullfilled, rejected
-- myPromise
+- "myPromise
 -   .then(handleAfullfilledA, handleRejectedA)
 -   .then(handleBfullfilledB, handleRejectedB)
--   .then(handlefullfilledC, handleRejectedC);
+-   .then(handlefullfilledC, handleRejectedC);"
 
 - OR
-- myPromise
+- "myPromise
 -   .then(handledfullfilledA)
 -   .then(handlededfulfilledB)
--   .catch(handleRejectedAny);
+-   .catch(handleRejectedAny);"
