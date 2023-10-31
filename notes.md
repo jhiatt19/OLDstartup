@@ -24,12 +24,12 @@ getElementByID and addEventListener: grabs an element by id and addEventListener
 DOM: Document Object Model allows for JS to create a dynamic HTML by changing elements, attributes, CSS styles, and more
 default HTML span element has a default CSS display property value of: inline
 use CSS to change all div elements: div {}
-display image with hyperlink in HTML: <a <img> href="link"></a>
+display image with hyperlink in HTML: "<a <img> href="link"></a>"
 CSS box model layers inside working out: inside: content, padding, border, outside: margin
 troubl to green but leave double text unaffected?:
 output from a for loop and console.log: whatever console.log is attached will be output
 change element with id of byu to green using JS: "document.getElementById('byu').style.color = 'green'"
-opening HTML tag for a "<p>, <ol>, <ul>, <h2>, <h1>, and <h3>": I thnk it is '<' or what was written over their
+opening HTML tag for a "<p>", "<ol>", "<ul>", "<h2>", "<h1>", and "<h3>": I thnk it is '<' or what was written over their
 declare doc type to HTML: <!DOCTYPE html>
 JS syntax for if, else, for, while, and switch: "if (){} else if () {} else{} for (){} while (){} switch () { case x: break; case y: break; default: }"
 syntax for creating a JS object: "new example() or object.create()"
