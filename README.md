@@ -69,6 +69,13 @@ For this deliverable I styled the application using CSS.
 - Application text content: Fonts are consistent and the fonts don't distract from each other.
 - Application images: Image isn't over-stretched and is centered when resized.
 
+## JavaScript deliverable
+
+For this deliverable I attempted to create functionality in website using JavaScript.
+
+- JavaScript support for future login added
+
+This deliverable is incomplete and in rough condition. I attempted to create a dynamically generated table on the budget page but the table is being added to the wrong spot on the page and unstyled. To be completely honest I don't know if I did any database support or future WebSocket support. The application's logic is not complete but major progress was done for the budget page and the login page. 
 
 
 
