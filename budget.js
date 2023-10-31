@@ -32,18 +32,19 @@ function generateTable() {
         for (let j = 0; j < numColumns; j++){
             if (j == 0){
                 const rowDataText = document.createTextNode(prompt("Row Name?"));
-                rowData = rowDataText;
+                rowData.appendChild(rowDataText);
                 tableRow.appendChild(rowData);
             }
             else{
                 const rowDataText = document.createTextNode(prompt(tableHead[k] + tableRow[0] + " = "));
-                rowData = rowDataText;
+                rowData.appendChild(rowDataText);
                 tableRow.appendChild(rowData);
             }
         }
         tableBody.appendChild(tableRow);
     }
     tbl.appendChild(tableBody);
+    document.body.appendChild(tbl);
 }
 
 function changeHeader() {
