@@ -1,14 +1,12 @@
-const uname = document.getElementById('uname');
-const output = document.getElementById('output');
 const tableList = [];
+
 function printUname(){
-    output.innerHTML = uname.value;
+    user = localStorage.getItem('uname');
 }
 
 function addTableElement(){
     const newCategory = prompt("Category name?");
     localStorage.setItem("category", newCategory);
-
 }
 
 function generateTable() {
