@@ -1,6 +1,6 @@
 const uname = document.getElementById('uname');
 const output = document.getElementById('output');
-
+const tableList = [];
 function printUname(){
     output.innerHTML = uname.value;
 }
@@ -10,7 +10,6 @@ function addTableElement(){
     localStorage.setItem("category", newCategory);
 
 }
-
 
 function generateTable() {
     const numRows = prompt("How many rows?");
@@ -45,6 +44,7 @@ function generateTable() {
     }
     tbl.appendChild(tableBody);
     document.body.appendChild(tbl);
+    tableList.append(tbl);
 }
 
 function changeHeader() {
