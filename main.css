@@ -58,14 +58,14 @@ table{
 thead {
     color:black;
     border-color: black;
-    border-bottom: 3px solid;
-    border-left: none;
-    border-right: none;
-    
-    
+    border-bottom: black;
+
 }
-th {
-    border-bottom: 3px solid;
+
+td {
+    color: white;
+    border: 1px;
+    border: black;
 }
 
 tr:hover{
